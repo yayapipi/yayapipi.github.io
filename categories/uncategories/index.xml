@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>uncategories on Yayapipi Studio</title>
+    <link>https://yayapipi.github.io/categories/uncategories/</link>
+    <description>Recent content in uncategories on Yayapipi Studio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 05 Dec 2020 20:41:32 +0800</lastBuildDate><atom:link href="https://yayapipi.github.io/categories/uncategories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pulut Adventure</title>
+      <link>https://yayapipi.github.io/games/pulut-adventure/</link>
+      <pubDate>Sat, 05 Dec 2020 20:41:32 +0800</pubDate>
+      
+      <guid>https://yayapipi.github.io/games/pulut-adventure/</guid>
+      <description>Introduction: Pulut Adventure 是一款很好玩的游戲</description>
+    </item>
+    
+  </channel>
+</rss>
