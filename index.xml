@@ -5,7 +5,18 @@
     <link>https://yayapipi.github.io/</link>
     <description>Recent content on Yayapipi Studio</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 05 Dec 2020 23:55:23 +0800</lastBuildDate><atom:link href="https://yayapipi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Dec 2020 00:02:58 +0800</lastBuildDate><atom:link href="https://yayapipi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo一鍵發佈Bat</title>
+      <link>https://yayapipi.github.io/posts/hugo%E4%B8%80%E9%8D%B5%E7%99%BC%E4%BD%88bat/</link>
+      <pubDate>Sun, 06 Dec 2020 00:02:58 +0800</pubDate>
+      
+      <guid>https://yayapipi.github.io/posts/hugo%E4%B8%80%E9%8D%B5%E7%99%BC%E4%BD%88bat/</guid>
+      <description>快速生成新文章：
+@echo off set /p id=&amp;#34;Enter Article Name: &amp;#34; hugo new %id% echo %id% is created pause 一鍵部署發佈：
+@echo off set /p commit=&amp;#34;Enter Commit Value: &amp;#34; hugo cd public git add . git commit -m &amp;#34;%commit%&amp;#34; git push -u origin master echo Commit Pushed pause </description>
+    </item>
+    
     <item>
       <title>New2</title>
       <link>https://yayapipi.github.io/posts/new2/</link>
