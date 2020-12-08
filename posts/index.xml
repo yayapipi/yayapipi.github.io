@@ -32,15 +32,6 @@
     </item>
     
     <item>
-      <title>New2</title>
-      <link>https://yayapipi.github.io/posts/new2/</link>
-      <pubDate>Sat, 05 Dec 2020 23:55:23 +0800</pubDate>
-      
-      <guid>https://yayapipi.github.io/posts/new2/</guid>
-      <description>New Files</description>
-    </item>
-    
-    <item>
       <title>Pixel To The West</title>
       <link>https://yayapipi.github.io/posts/pixel-to-the-west/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
@@ -50,7 +41,7 @@
     </item>
     
     <item>
-      <title>使用PYTHON實作抓取博客來圖書資料&#34;</title>
+      <title>使用PYTHON實作抓取博客來圖書資料</title>
       <link>https://yayapipi.github.io/posts/python-worm/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
       
