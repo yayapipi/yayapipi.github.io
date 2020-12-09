@@ -4,16 +4,6 @@
     <title>Storys on Yayapipi Studio</title>
     <link>https://yayapipi.github.io/storys/</link>
     <description>Recent content in Storys on Yayapipi Studio</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 06 Dec 2020 14:19:58 +0800</lastBuildDate><atom:link href="https://yayapipi.github.io/storys/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>eat</title>
-      <link>https://yayapipi.github.io/storys/eat/</link>
-      <pubDate>Sun, 06 Dec 2020 14:19:58 +0800</pubDate>
-      
-      <guid>https://yayapipi.github.io/storys/eat/</guid>
-      <description></description>
-    </item>
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://yayapipi.github.io/storys/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

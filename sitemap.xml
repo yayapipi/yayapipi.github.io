@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://yayapipi.github.io/posts/%E5%B8%83%E4%B8%81/</loc>
+    <loc>https://yayapipi.github.io/projects/storys/%E9%82%A3%E5%A4%A9%E5%A4%9C%E8%A3%A1%E6%88%91%E6%8A%8A%E8%87%AA%E5%B7%B1%E5%90%83%E6%8E%89%E4%BA%86/</loc>
     <lastmod>2020-12-06T14:19:58+08:00</lastmod>
   </url>
   
@@ -13,22 +13,12 @@
   </url>
   
   <url>
-    <loc>https://yayapipi.github.io/games/pulut-adventure/</loc>
+    <loc>https://yayapipi.github.io/projects/games/pulut-adventure/</loc>
     <lastmod>2020-12-05T20:41:32+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yayapipi.github.io/games/pixel-to-the-west/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yayapipi.github.io/posts/pixel-to-the-west/</loc>
-    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yayapipi.github.io/games/python-worm/</loc>
+    <loc>https://yayapipi.github.io/projects/games/pixel-to-the-west/</loc>
     <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url>
   
@@ -43,17 +33,7 @@
   </url>
   
   <url>
-    <loc>https://yayapipi.github.io/storys/eat/</loc>
-    <lastmod>2020-12-06T14:19:58+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yayapipi.github.io/posts/</loc>
-    <lastmod>2020-12-06T14:19:58+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yayapipi.github.io/storys/</loc>
+    <loc>https://yayapipi.github.io/projects/</loc>
     <lastmod>2020-12-06T14:19:58+08:00</lastmod>
   </url>
   
@@ -78,13 +58,13 @@
   </url>
   
   <url>
-    <loc>https://yayapipi.github.io/categories/uncategories/</loc>
+    <loc>https://yayapipi.github.io/posts/</loc>
     <lastmod>2020-12-06T00:02:58+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yayapipi.github.io/games/</loc>
-    <lastmod>2020-12-05T20:41:32+08:00</lastmod>
+    <loc>https://yayapipi.github.io/categories/uncategories/</loc>
+    <lastmod>2020-12-06T00:02:58+08:00</lastmod>
   </url>
   
   <url>
@@ -103,11 +83,15 @@
   </url>
   
   <url>
-    <loc>https://yayapipi.github.io/archives/</loc>
+    <loc>https://yayapipi.github.io/projects/</loc>
   </url>
   
   <url>
-    <loc>https://yayapipi.github.io/projects/</loc>
+    <loc>https://yayapipi.github.io/storys/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yayapipi.github.io/archives/</loc>
   </url>
   
 </urlset>
