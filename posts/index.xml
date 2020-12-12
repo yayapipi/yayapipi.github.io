@@ -13,14 +13,14 @@
       
       <guid>https://yayapipi.github.io/posts/hugo%E5%A6%82%E4%BD%95%E5%9C%A8markdown%E4%B8%8A%E4%BD%BF%E7%94%A8html/</guid>
       <description>HUGO如何在Markdown上使用HTML 很神奇的Hugo無法直接渲染Markdown上的HTML代碼，當我們需要修改字體顔色，增加一些功能美化我們的文章的時候，可以使用以下方法在Markdown上面使用HTML代碼：
-方法1： 修改Config檔案,告訴Hugo吧HTML的代碼渲染出來。 在Config檔案下新增下列參數。
+方法1： 修改Config檔案,告訴Hugo把HTML的代碼渲染出來。 在Config檔案下新增下列參數。
 config.yaml:
 markup: goldmark: renderer: unsafe: true config.toml:
 [markup] [markup.goldmark] [markup.goldmark.renderer] unsafe = true config.json:
-{ &amp;quot;markup&amp;quot;: { &amp;quot;goldmark&amp;quot;: { &amp;quot;renderer&amp;quot;: { &amp;quot;unsafe&amp;quot;: true } } } } 方法2： 使用Shortcode
+{ &amp;#34;markup&amp;#34;: { &amp;#34;goldmark&amp;#34;: { &amp;#34;renderer&amp;#34;: { &amp;#34;unsafe&amp;#34;: true } } } } 方法2： 使用Shortcode
 在layout/shortcode/裏新增新的Shortcode.html文件，這裏取名叫做codehtml.html，在裏面輸入:
-{{.inner}} 然後就可以在Markdown中使用這個Shorcode了：
-{{&amp;lt; codehtml &amp;gt;}} &amp;lt;p style=&amp;#39;color:red;&amp;#39;&amp;gt; 我要使用&amp;lt;i&amp;gt;HTML&amp;lt;/i&amp;gt;！ &amp;lt;/p&amp;gt; {{&amp;lt; codehtml /&amp;gt;}} 顯示效果： 我要使用HTML！ </description>
+{{.Inner}} 然後就可以在Markdown中使用這個Shorcode了：
+{{&amp;lt; codehtml &amp;gt;}} &amp;lt;p style=&amp;#39;color:red;&amp;#39;&amp;gt; 我要使用&amp;lt;i&amp;gt;HTML&amp;lt;/i&amp;gt;！ &amp;lt;/p&amp;gt; {{&amp;lt; /codehtml &amp;gt;}} 顯示效果： 我要使用HTML！ </description>
     </item>
     
     <item>

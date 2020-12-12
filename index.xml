@@ -13,14 +13,14 @@
       
       <guid>https://yayapipi.github.io/posts/hugo%E5%A6%82%E4%BD%95%E5%9C%A8markdown%E4%B8%8A%E4%BD%BF%E7%94%A8html/</guid>
       <description>HUGO如何在Markdown上使用HTML 很神奇的Hugo無法直接渲染Markdown上的HTML代碼，當我們需要修改字體顔色，增加一些功能美化我們的文章的時候，可以使用以下方法在Markdown上面使用HTML代碼：
-方法1： 修改Config檔案,告訴Hugo吧HTML的代碼渲染出來。 在Config檔案下新增下列參數。
+方法1： 修改Config檔案,告訴Hugo把HTML的代碼渲染出來。 在Config檔案下新增下列參數。
 config.yaml:
 markup: goldmark: renderer: unsafe: true config.toml:
 [markup] [markup.goldmark] [markup.goldmark.renderer] unsafe = true config.json:
-{ &amp;quot;markup&amp;quot;: { &amp;quot;goldmark&amp;quot;: { &amp;quot;renderer&amp;quot;: { &amp;quot;unsafe&amp;quot;: true } } } } 方法2： 使用Shortcode
+{ &amp;#34;markup&amp;#34;: { &amp;#34;goldmark&amp;#34;: { &amp;#34;renderer&amp;#34;: { &amp;#34;unsafe&amp;#34;: true } } } } 方法2： 使用Shortcode
 在layout/shortcode/裏新增新的Shortcode.html文件，這裏取名叫做codehtml.html，在裏面輸入:
-{{.inner}} 然後就可以在Markdown中使用這個Shorcode了：
-{{&amp;lt; codehtml &amp;gt;}} &amp;lt;p style=&amp;#39;color:red;&amp;#39;&amp;gt; 我要使用&amp;lt;i&amp;gt;HTML&amp;lt;/i&amp;gt;！ &amp;lt;/p&amp;gt; {{&amp;lt; codehtml /&amp;gt;}} 顯示效果： 我要使用HTML！ </description>
+{{.Inner}} 然後就可以在Markdown中使用這個Shorcode了：
+{{&amp;lt; codehtml &amp;gt;}} &amp;lt;p style=&amp;#39;color:red;&amp;#39;&amp;gt; 我要使用&amp;lt;i&amp;gt;HTML&amp;lt;/i&amp;gt;！ &amp;lt;/p&amp;gt; {{&amp;lt; /codehtml &amp;gt;}} 顯示效果： 我要使用HTML！ </description>
     </item>
     
     <item>
@@ -52,10 +52,10 @@ markup: goldmark: renderer: unsafe: true config.toml:
     
     <item>
       <title>哆啦A夢七小子之夢境大英雄</title>
-      <link>https://yayapipi.github.io/projects/games/%E5%93%86%E5%95%A6a%E5%A4%A2%E4%B8%83%E5%B0%8F%E5%AD%90%E4%B9%8B%E5%A4%A2%E5%A2%83%E5%A4%A7%E8%8B%B1%E9%9B%84/</link>
+      <link>https://yayapipi.github.io/products/games/%E5%93%86%E5%95%A6a%E5%A4%A2%E4%B8%83%E5%B0%8F%E5%AD%90%E4%B9%8B%E5%A4%A2%E5%A2%83%E5%A4%A7%E8%8B%B1%E9%9B%84/</link>
       <pubDate>Wed, 09 Dec 2020 21:25:23 +0800</pubDate>
       
-      <guid>https://yayapipi.github.io/projects/games/%E5%93%86%E5%95%A6a%E5%A4%A2%E4%B8%83%E5%B0%8F%E5%AD%90%E4%B9%8B%E5%A4%A2%E5%A2%83%E5%A4%A7%E8%8B%B1%E9%9B%84/</guid>
+      <guid>https://yayapipi.github.io/products/games/%E5%93%86%E5%95%A6a%E5%A4%A2%E4%B8%83%E5%B0%8F%E5%AD%90%E4%B9%8B%E5%A4%A2%E5%A2%83%E5%A4%A7%E8%8B%B1%E9%9B%84/</guid>
       <description>簡介 剧情讲述着马它哆啦在梦境中到了一个神秘的村庄 那个神秘的村庄被巫婆给占领了，于是马它哆啦决定帮助居民 使用无敌的百宝道具来消灭女巫。 马它哆啦是否能够消灭女巫呢？ 快拿起口气炮，石头帽，避敌斗篷，一起喝马它哆啦冒险吧！
 備注 这是我中學時第一次完成的游戏，使用工具是RPG Maker VX。
 游戏玩法： 简易的操作方法 上下左右行走 技能快捷键打开esc，选择你要的技能然后按123选择快捷键，物品是按456 普通技能只能远距离攻击，近距离无效
@@ -64,10 +64,10 @@ markup: goldmark: renderer: unsafe: true config.toml:
     
     <item>
       <title>那天夜裡,我把自己吃掉了</title>
-      <link>https://yayapipi.github.io/projects/storys/%E9%82%A3%E5%A4%A9%E5%A4%9C%E8%A3%A1%E6%88%91%E6%8A%8A%E8%87%AA%E5%B7%B1%E5%90%83%E6%8E%89%E4%BA%86/</link>
+      <link>https://yayapipi.github.io/products/storys/%E9%82%A3%E5%A4%A9%E5%A4%9C%E8%A3%A1%E6%88%91%E6%8A%8A%E8%87%AA%E5%B7%B1%E5%90%83%E6%8E%89%E4%BA%86/</link>
       <pubDate>Sun, 06 Dec 2020 14:19:58 +0800</pubDate>
       
-      <guid>https://yayapipi.github.io/projects/storys/%E9%82%A3%E5%A4%A9%E5%A4%9C%E8%A3%A1%E6%88%91%E6%8A%8A%E8%87%AA%E5%B7%B1%E5%90%83%E6%8E%89%E4%BA%86/</guid>
+      <guid>https://yayapipi.github.io/products/storys/%E9%82%A3%E5%A4%A9%E5%A4%9C%E8%A3%A1%E6%88%91%E6%8A%8A%E8%87%AA%E5%B7%B1%E5%90%83%E6%8E%89%E4%BA%86/</guid>
       <description>那天夜裡，我好餓，於是我把自己吃掉了。
 剛開始的時候我是從腳開始吃的，因為那樣看起來比較合理好吃，而且手還需要留著到後面剖開別的地方用。 腳的味道還不錯，有點鹹鹹的，但是嚼勁很好，吃起來很軟嫩，尤其是大腿內側那裡，簡直是讓人無法自拔。
 然後我開始吃肚子和裡面的器官，這裡有種吃大閘會的感覺，各種東西都湊在一塊，胃酸雖然名字叫胃酸，吃起來卻蠻辣的，配著心臟吃感覺上像是吃咖喱，大腸的話有點臭味，必須洗乾淨再吃，肺部的話可以壓扁再吃，不然裡面都是空氣。
@@ -89,19 +89,19 @@ markup: goldmark: renderer: unsafe: true config.toml:
     
     <item>
       <title>Pulut Adventure</title>
-      <link>https://yayapipi.github.io/projects/games/pulut-adventure/</link>
+      <link>https://yayapipi.github.io/products/games/pulut-adventure/</link>
       <pubDate>Sat, 05 Dec 2020 20:41:32 +0800</pubDate>
       
-      <guid>https://yayapipi.github.io/projects/games/pulut-adventure/</guid>
+      <guid>https://yayapipi.github.io/products/games/pulut-adventure/</guid>
       <description>Introduction: Pulut Adventure 是一款很好玩的游戲</description>
     </item>
     
     <item>
       <title>Pixel To The West</title>
-      <link>https://yayapipi.github.io/projects/games/pixel-to-the-west/</link>
+      <link>https://yayapipi.github.io/products/games/pixel-to-the-west/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
       
-      <guid>https://yayapipi.github.io/projects/games/pixel-to-the-west/</guid>
+      <guid>https://yayapipi.github.io/products/games/pixel-to-the-west/</guid>
       <description>Pixel To The West 是一款十分好玩的3D像素冒险游戏,剧情讲述的是孙悟空师徒在取经的路上忽然遇上了时空错乱,从2D的游戏世界闯进了3D的世界里去了,师父被莫名的妖怪捉走了，孙悟空的法力也被散落在世界的各地，在找回失去的法力的同时，孙悟空发现了这一次的时空错乱是一场计划已久的阴谋…
 游戏特色：   探索世界你可以在游戏里探索不同的世界，并寻找魔法和宝藏
   七十二变
