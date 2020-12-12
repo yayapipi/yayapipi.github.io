@@ -1,18 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Yayapipi Studio</title>
+    <title>Yayapipi Site</title>
     <link>https://yayapipi.github.io/</link>
-    <description>Recent content on Yayapipi Studio</description>
+    <description>Recent content on Yayapipi Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 09 Dec 2020 23:20:31 +0800</lastBuildDate><atom:link href="https://yayapipi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Dec 2020 16:58:46 +0800</lastBuildDate><atom:link href="https://yayapipi.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>師</title>
-      <link>https://yayapipi.github.io/posts/review/%E5%B8%AB/</link>
-      <pubDate>Wed, 09 Dec 2020 23:20:31 +0800</pubDate>
+      <title>HUGO如何在Markdown上使用HTML</title>
+      <link>https://yayapipi.github.io/posts/hugo%E5%A6%82%E4%BD%95%E5%9C%A8markdown%E4%B8%8A%E4%BD%BF%E7%94%A8html/</link>
+      <pubDate>Sat, 12 Dec 2020 16:58:46 +0800</pubDate>
       
-      <guid>https://yayapipi.github.io/posts/review/%E5%B8%AB/</guid>
-      <description></description>
+      <guid>https://yayapipi.github.io/posts/hugo%E5%A6%82%E4%BD%95%E5%9C%A8markdown%E4%B8%8A%E4%BD%BF%E7%94%A8html/</guid>
+      <description>HUGO如何在Markdown上使用HTML 很神奇的Hugo無法直接渲染Markdown上的HTML代碼，當我們需要修改字體顔色，增加一些功能美化我們的文章的時候，可以使用以下方法在Markdown上面使用HTML代碼：
+方法1： 修改Config檔案,告訴Hugo吧HTML的代碼渲染出來。 在Config檔案下新增下列參數。
+config.yaml:
+markup: goldmark: renderer: unsafe: true config.toml:
+[markup] [markup.goldmark] [markup.goldmark.renderer] unsafe = true config.json:
+{ &amp;quot;markup&amp;quot;: { &amp;quot;goldmark&amp;quot;: { &amp;quot;renderer&amp;quot;: { &amp;quot;unsafe&amp;quot;: true } } } } 方法2： 使用Shortcode
+在layout/shortcode/裏新增新的Shortcode.html文件，這裏取名叫做codehtml.html，在裏面輸入:
+{{.inner}} 然後就可以在Markdown中使用這個Shorcode了：
+{{&amp;lt; codehtml &amp;gt;}} &amp;lt;p style=&amp;#39;color:red;&amp;#39;&amp;gt; 我要使用&amp;lt;i&amp;gt;HTML&amp;lt;/i&amp;gt;！ &amp;lt;/p&amp;gt; {{&amp;lt; codehtml /&amp;gt;}} 顯示效果： 我要使用HTML！ </description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://yayapipi.github.io/about/</link>
+      <pubDate>Sat, 12 Dec 2020 15:54:23 +0800</pubDate>
+      
+      <guid>https://yayapipi.github.io/about/</guid>
+      <description>I am Yayapipi :D </description>
     </item>
     
     <item>
@@ -30,24 +47,6 @@
       <pubDate>Wed, 09 Dec 2020 23:17:56 +0800</pubDate>
       
       <guid>https://yayapipi.github.io/new/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A</title>
-      <link>https://yayapipi.github.io/posts/share/a/</link>
-      <pubDate>Wed, 09 Dec 2020 23:16:19 +0800</pubDate>
-      
-      <guid>https://yayapipi.github.io/posts/share/a/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>TerminalPreview</title>
-      <link>https://yayapipi.github.io/posts/share/terminalpreview/</link>
-      <pubDate>Wed, 09 Dec 2020 23:12:56 +0800</pubDate>
-      
-      <guid>https://yayapipi.github.io/posts/share/terminalpreview/</guid>
       <description></description>
     </item>
     
@@ -120,19 +119,6 @@
   特殊魔法
 游戏遍布了各种特殊的魔法功能，每个都用不同的效果
   游戏視頻：   游戏截圖： </description>
-    </item>
-    
-    <item>
-      <title>使用PYTHON實作抓取博客來圖書資料</title>
-      <link>https://yayapipi.github.io/posts/python-worm/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      
-      <guid>https://yayapipi.github.io/posts/python-worm/</guid>
-      <description>在這個網絡世界資訊爆棚的時代，我們常常需要抓取網站上面的各種資料進行處理，因為最近在寫一個可以記錄你讀過多少本書的網站，所以今天我們就要來試試看使用Python 的Beautiful Soup來抓取博客來上面的圖書資料！
-準備工具:
- 安裝好Python的環境 安裝BeautifulSoup4 pip install beautifulsoup4  我們可以看到頁面上提供了很多我們要提取的資訊，現在我們要透過CMD進行關鍵字的搜尋，然後抓取搜尋界面的資訊，我們要抓的資訊有書本的照片，標題，和對應跳轉網址，抓到網址之後，我們會進去網址裡面繼續抓更多的資訊
-我們先來看看搜尋界面的代碼：
-import requests import sys from bs4 import BeautifulSoupr = requests.get(‘https://search.books.com.tw/search/query/key/’+sys.argv[1]) if r.status_code == requests.codes.ok: # 以 BeautifulSoup 解析 HTML 程式碼 soup = BeautifulSoup(r.text, ‘html.parser’) #print(soup.prettify()) 這是把抓取的HTML美化列印出來 # 抓出搜尋到的所有資料 stories = soup.find_all(‘a’,rel=’mid_image’) for s in stories: #抓出書名 print(“標題：” + s.get(‘title’)) #抓出對應的網址 href_cut_start = ‘item/’ href_cut_end = ‘/page/’ href = s.get(‘href’) href = href[href.index(href_cut_start)+len(href_cut_start):href.index(href_cut_end)] print(“網址：” + href) image = soup.</description>
     </item>
     
     <item>

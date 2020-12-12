@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Yayapipi Studio</title>
+    <title>Projects on Yayapipi Site</title>
     <link>https://yayapipi.github.io/projects/</link>
-    <description>Recent content in Projects on Yayapipi Studio</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 09 Dec 2020 21:25:23 +0800</lastBuildDate><atom:link href="https://yayapipi.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content in Projects on Yayapipi Site</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://yayapipi.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
+.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>哆啦A夢七小子之夢境大英雄</title>
       <link>https://yayapipi.github.io/projects/games/%E5%93%86%E5%95%A6a%E5%A4%A2%E4%B8%83%E5%B0%8F%E5%AD%90%E4%B9%8B%E5%A4%A2%E5%A2%83%E5%A4%A7%E8%8B%B1%E9%9B%84/</link>
