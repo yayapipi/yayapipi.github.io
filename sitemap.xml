@@ -3,12 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://yayapipi.github.io/posts/hugo%E5%8A%A0%E4%B8%8A%E4%B8%8D%E9%96%93%E6%96%B7%E7%9A%84%E8%83%8C%E6%99%AF%E9%9F%B3%E6%A8%82/</loc>
+    <lastmod>2020-12-16T11:10:06+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yayapipi.github.io/posts/hugo%E5%A6%82%E4%BD%95%E5%9C%A8markdown%E4%B8%8A%E4%BD%BF%E7%94%A8html/</loc>
     <lastmod>2020-12-12T16:58:46+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://yayapipi.github.io/about/</loc>
+    <lastmod>2020-12-12T15:54:23+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yayapipi.github.io/music/</loc>
     <lastmod>2020-12-12T15:54:23+08:00</lastmod>
   </url>
   
@@ -49,22 +59,22 @@
   
   <url>
     <loc>https://yayapipi.github.io/posts/</loc>
-    <lastmod>2020-12-12T16:58:46+08:00</lastmod>
+    <lastmod>2020-12-16T11:10:06+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://yayapipi.github.io/tags/</loc>
-    <lastmod>2020-12-12T16:58:46+08:00</lastmod>
+    <lastmod>2020-12-16T11:10:06+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://yayapipi.github.io/tags/untags/</loc>
-    <lastmod>2020-12-12T16:58:46+08:00</lastmod>
+    <lastmod>2020-12-16T11:10:06+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://yayapipi.github.io/</loc>
-    <lastmod>2020-12-12T16:58:46+08:00</lastmod>
+    <lastmod>2020-12-16T11:10:06+08:00</lastmod>
   </url>
   
   <url>
